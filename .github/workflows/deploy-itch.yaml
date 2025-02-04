@@ -22,7 +22,7 @@ jobs:
         run: |
           curl -L -o godot.zip https://github.com/godotengine/godot-builds/releases/download/4.4-beta2/Godot_v4.4-beta2_linux.x86_64.zip
           unzip godot.zip
-          mv Godot_v$GODOT_VERSION-stable_linux.x86_64 godot
+          mv Godot_v4.4-beta2_linux.x86_64 godot
           chmod +x godot
 
       - name: Download Godot Export Templates
@@ -32,8 +32,8 @@ jobs:
 
       - name: Install Export Templates
         run: |
-          mkdir -p ~/.local/share/godot/export_templates/$GODOT_VERSION.stable
-          mv ./templates/* ~/.local/share/godot/export_templates/$GODOT_VERSION.stable
+          mkdir -p ~/.local/share/godot/export_templates/$GODOT_VERSION.beta2
+          mv ./templates/* ~/.local/share/godot/export_templates/$GODOT_VERSION.beta2
 
       - name: Build
         run: |
