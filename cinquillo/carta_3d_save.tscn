@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://bx4kttj71nesa"]
+
+[ext_resource type="PackedScene" uid="uid://dxpc2iac0hjpw" path="res://addons/card_3d/scenes/card_3d.tscn" id="1_76eo2"]
+[ext_resource type="Script" uid="uid://csk1dja2ntdut" path="res://cinquillo/carta_3d.gd" id="2_6y04t"]
+
+[node name="Carta3d" instance=ExtResource("1_76eo2")]
+script = ExtResource("2_6y04t")

@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://bnviv7a0ujvfp"]
+
+[ext_resource type="PackedScene" uid="uid://d1uvcisduvvj" path="res://addons/card_3d/scenes/card_collection_3d.tscn" id="1_j2t14"]
+[ext_resource type="Script" uid="uid://co1oq8ohv6013" path="res://cinquillo/palo_collection.gd" id="2_58d0f"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_58d0f"]
+size = Vector3(2, 10, 0.5)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_58d0f"]
+size = Vector2(2.5, 3.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_58d0f"]
+albedo_color = Color(0.164183, 0.323424, 0.243959, 1)
+
+[node name="CardCollection3D" instance=ExtResource("1_j2t14")]
+script = ExtResource("2_58d0f")
+highlight_on_hover = false
+dropzone_collision_shape = SubResource("BoxShape3D_58d0f")
+
+[node name="DropZone" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_58d0f")
+surface_material_override/0 = SubResource("StandardMaterial3D_58d0f")
