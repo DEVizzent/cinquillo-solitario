@@ -1,6 +1,5 @@
-[gd_scene load_steps=143 format=3 uid="uid://kwe3s65paqal"]
+[gd_scene load_steps=142 format=3 uid="uid://kwe3s65paqal"]
 
-[ext_resource type="Script" uid="uid://qthlx04iti8c" path="res://tools/spanish_deck_builder.gd" id="1_6l68m"]
 [ext_resource type="Script" uid="uid://dfld4613cae14" path="res://cinquillo/test.gd" id="1_yvisy"]
 [ext_resource type="Script" uid="uid://881yj1lsab3y" path="res://cinquillo/resources/carta.gd" id="2_1vd60"]
 [ext_resource type="Script" uid="uid://c4uhi0b65a4wv" path="res://cinquillo/resources/baraja.gd" id="2_6pvuf"]
@@ -501,10 +500,6 @@ surface_material_override/0 = SubResource("StandardMaterial3D_6l68m")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="MeshInstance3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 11.0128)
-
-[node name="Node" type="Node" parent="."]
-script = ExtResource("1_6l68m")
-cards_img_folder_path = "res://img"
 
 [node name="Pila" parent="." instance=ExtResource("2_qq8vi")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -12, -5, 0)

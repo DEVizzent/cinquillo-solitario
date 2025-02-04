@@ -21,8 +21,8 @@ enum Rango {
 	REY = 10
 }
 
-@export var palo : Palo
-@export var rango : Rango
+@export var palo : Palo = Palo.BASTOS
+@export var rango : Rango = Rango.AS
 @export var front_material : StandardMaterial3D
 @export var back_material : StandardMaterial3D
 
