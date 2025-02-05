@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hhgkumbiwrl8"
-path.s3tc="res://.godot/imported/05-bastos.png-049d90935ae6d2bc30989e513d1cf4ad.s3tc.ctex"
+uid="uid://hbuvf5p5j251"
+path.s3tc="res://.godot/imported/cinquillo.png-3ac3b58a6e2b6d0d961551da3667a327.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://img/05-bastos.png"
-dest_files=["res://.godot/imported/05-bastos.png-049d90935ae6d2bc30989e513d1cf4ad.s3tc.ctex"]
+source_file="res://img/cinquillo.png"
+dest_files=["res://.godot/imported/cinquillo.png-3ac3b58a6e2b6d0d961551da3667a327.s3tc.ctex"]
 
 [params]
 

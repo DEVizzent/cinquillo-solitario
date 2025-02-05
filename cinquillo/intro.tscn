@@ -1,0 +1,381 @@
+[gd_scene load_steps=17 format=3 uid="uid://bthcuwr7x7fav"]
+
+[ext_resource type="Material" uid="uid://b1hqq03hu22xw" path="res://cinquillo/resources/back_card_material.tres" id="1_1gh8b"]
+[ext_resource type="Texture2D" uid="uid://hhgkumbiwrl8" path="res://img/05-bastos.png" id="2_mu3r5"]
+[ext_resource type="Texture2D" uid="uid://sr6b2dxhlx0u" path="res://img/05-copas.png" id="3_8n8fh"]
+[ext_resource type="Texture2D" uid="uid://boavoitakcqjl" path="res://img/05-espadas.png" id="4_lqm35"]
+[ext_resource type="Texture2D" uid="uid://by2gqx6jrqaxn" path="res://img/05-oros.png" id="5_2pbkh"]
+[ext_resource type="Texture2D" uid="uid://hbuvf5p5j251" path="res://img/cinquillo.png" id="6_2pbkh"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_mu3r5"]
+size = Vector2(2.5, 3.5)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_8n8fh"]
+size = Vector2(2.5, 3.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l32h2"]
+albedo_texture = ExtResource("2_mu3r5")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8n8fh"]
+albedo_texture = ExtResource("3_8n8fh")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pubm1"]
+albedo_texture = ExtResource("4_lqm35")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qidwe"]
+albedo_texture = ExtResource("5_2pbkh")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o3wf3"]
+albedo_texture = ExtResource("6_2pbkh")
+
+[sub_resource type="Animation" id="Animation_2pbkh"]
+resource_name = "Intro"
+length = 2.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CincoBastos:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(3, -15, 0), Vector3(-2.5, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CincoBastos:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.966667, 2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 3.14159, 3.14159), Vector3(0, 3.14159, 3.14159), Vector3(0, 0, 0.261799)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CincoCopas:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.7),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-25, -1, 0), Vector3(-4.5, -1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CincoCopas:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.0333333, 0.6, 1.3, 1.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(1.22173, 3.14159, 0), Vector3(0, 0, 0.523599), Vector3(1.22173, 3.14159, 0), Vector3(0, 0, 0.523599)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("CincoEspadas:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 3.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(2.5, 0, 0), Vector3(2.5, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("CincoEspadas:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 3.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1, 1, 1), Vector3(1, 1, 1)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("CincoOros:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 3.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(4.5, -1, 0), Vector3(4.5, -1, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("CincoOros:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 3.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.523599), Vector3(0, 0, -0.523599)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Cinquillo:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 3.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 1.5, 0), Vector3(0, 1.5, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Cinquillo:scale")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 3.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.5, 1.5, 1.5), Vector3(1.5, 1.5, 1.5)]
+}
+
+[sub_resource type="Animation" id="Animation_pubm1"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CincoBastos:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-2.5, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CincoBastos:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0.261799)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CincoCopas:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-4.5, -1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CincoCopas:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("CincoEspadas:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(2.5, 0, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("CincoEspadas:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1, 1, 1)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("CincoOros:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(4.5, -1, 0)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("CincoOros:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, -0.523599)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Cinquillo:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 1.5, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Cinquillo:scale")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.5, 1.5, 1.5)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("CincoCopas:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0.523599)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pubm1"]
+_data = {
+&"Intro": SubResource("Animation_2pbkh"),
+&"RESET": SubResource("Animation_pubm1")
+}
+
+[node name="Intro" type="Node3D"]
+
+[node name="CincoBastos" type="Node3D" parent="."]
+transform = Transform3D(0.965926, -0.258819, 0, 0.258819, 0.965926, 0, 0, 0, 1, -2.5, 0, 0)
+metadata/_edit_group_ = true
+
+[node name="CardBackMesh" type="MeshInstance3D" parent="CincoBastos"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_mu3r5")
+skeleton = NodePath("../..")
+surface_material_override/0 = ExtResource("1_1gh8b")
+
+[node name="CardFrontMesh" type="MeshInstance3D" parent="CincoBastos"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_8n8fh")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_l32h2")
+
+[node name="CincoCopas" type="Node3D" parent="."]
+transform = Transform3D(0.866025, -0.5, 0, 0.5, 0.866025, 0, 0, 0, 1, -4.5, -1, 0)
+metadata/_edit_group_ = true
+
+[node name="CardBackMesh" type="MeshInstance3D" parent="CincoCopas"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_mu3r5")
+skeleton = NodePath("../..")
+surface_material_override/0 = ExtResource("1_1gh8b")
+
+[node name="CardFrontMesh" type="MeshInstance3D" parent="CincoCopas"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_8n8fh")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_8n8fh")
+
+[node name="CincoEspadas" type="Node3D" parent="."]
+transform = Transform3D(0.965926, 0.258819, 0, -0.258819, 0.965926, 0, 0, 0, 1, 2.5, 0, 0)
+metadata/_edit_group_ = true
+
+[node name="CardBackMesh" type="MeshInstance3D" parent="CincoEspadas"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_mu3r5")
+skeleton = NodePath("../..")
+surface_material_override/0 = ExtResource("1_1gh8b")
+
+[node name="CardFrontMesh" type="MeshInstance3D" parent="CincoEspadas"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_8n8fh")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_pubm1")
+
+[node name="CincoOros" type="Node3D" parent="."]
+transform = Transform3D(0.866025, 0.5, 0, -0.5, 0.866025, 0, 0, 0, 1, 4.5, -1, 0)
+metadata/_edit_group_ = true
+
+[node name="CardBackMesh" type="MeshInstance3D" parent="CincoOros"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_mu3r5")
+skeleton = NodePath("../..")
+surface_material_override/0 = ExtResource("1_1gh8b")
+
+[node name="CardFrontMesh" type="MeshInstance3D" parent="CincoOros"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_8n8fh")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_qidwe")
+
+[node name="Cinquillo" type="Node3D" parent="."]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 1.5, 0)
+metadata/_edit_group_ = true
+
+[node name="CardBackMesh" type="MeshInstance3D" parent="Cinquillo"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_mu3r5")
+skeleton = NodePath("../..")
+surface_material_override/0 = ExtResource("1_1gh8b")
+
+[node name="CardFrontMesh" type="MeshInstance3D" parent="Cinquillo"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_8n8fh")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_o3wf3")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_pubm1")
+}
