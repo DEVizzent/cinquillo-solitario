@@ -44,407 +44,527 @@
 [ext_resource type="Texture2D" uid="uid://beylvpb8cldcr" path="res://img/11-oros.png" id="41_scl3r"]
 [ext_resource type="Texture2D" uid="uid://yyb5qa5ylubd" path="res://img/12-oros.png" id="42_nehwp"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qaqst"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1gs0y"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("3_qaqst")
 
-[sub_resource type="Resource" id="Resource_5dg62"]
+[sub_resource type="Resource" id="Resource_qaqst"]
 script = ExtResource("1_xblvt")
 palo = 1
 rango = 1
-front_material = SubResource("StandardMaterial3D_qaqst")
+front_material = SubResource("StandardMaterial3D_1gs0y")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_psgcd"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5dg62"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("4_5dg62")
 
-[sub_resource type="Resource" id="Resource_vofmm"]
+[sub_resource type="Resource" id="Resource_psgcd"]
 script = ExtResource("1_xblvt")
 palo = 1
 rango = 2
-front_material = SubResource("StandardMaterial3D_psgcd")
+front_material = SubResource("StandardMaterial3D_5dg62")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tgfua"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vofmm"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("5_psgcd")
 
-[sub_resource type="Resource" id="Resource_3mne7"]
+[sub_resource type="Resource" id="Resource_tgfua"]
 script = ExtResource("1_xblvt")
 palo = 1
 rango = 3
-front_material = SubResource("StandardMaterial3D_tgfua")
+front_material = SubResource("StandardMaterial3D_vofmm")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rlan6"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mne7"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("6_vofmm")
 
-[sub_resource type="Resource" id="Resource_qn61o"]
+[sub_resource type="Resource" id="Resource_rlan6"]
 script = ExtResource("1_xblvt")
 palo = 1
 rango = 4
-front_material = SubResource("StandardMaterial3D_rlan6")
+front_material = SubResource("StandardMaterial3D_3mne7")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p6rye"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qn61o"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("7_tgfua")
 
-[sub_resource type="Resource" id="Resource_o6o1c"]
+[sub_resource type="Resource" id="Resource_p6rye"]
 script = ExtResource("1_xblvt")
 palo = 1
 rango = 5
-front_material = SubResource("StandardMaterial3D_p6rye")
+front_material = SubResource("StandardMaterial3D_qn61o")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_adp2y"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o6o1c"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("8_3mne7")
 
-[sub_resource type="Resource" id="Resource_4a5eb"]
+[sub_resource type="Resource" id="Resource_adp2y"]
 script = ExtResource("1_xblvt")
 palo = 1
 rango = 6
-front_material = SubResource("StandardMaterial3D_adp2y")
+front_material = SubResource("StandardMaterial3D_o6o1c")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wk4ot"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4a5eb"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("9_rlan6")
 
-[sub_resource type="Resource" id="Resource_6wg80"]
+[sub_resource type="Resource" id="Resource_wk4ot"]
 script = ExtResource("1_xblvt")
 palo = 1
 rango = 7
-front_material = SubResource("StandardMaterial3D_wk4ot")
+front_material = SubResource("StandardMaterial3D_4a5eb")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p4gpa"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6wg80"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("10_qn61o")
 
-[sub_resource type="Resource" id="Resource_7huc7"]
+[sub_resource type="Resource" id="Resource_p4gpa"]
 script = ExtResource("1_xblvt")
 palo = 1
 rango = 8
-front_material = SubResource("StandardMaterial3D_p4gpa")
+front_material = SubResource("StandardMaterial3D_6wg80")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gf3ta"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7huc7"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("11_p6rye")
 
-[sub_resource type="Resource" id="Resource_857v7"]
+[sub_resource type="Resource" id="Resource_gf3ta"]
 script = ExtResource("1_xblvt")
 palo = 1
 rango = 9
-front_material = SubResource("StandardMaterial3D_gf3ta")
+front_material = SubResource("StandardMaterial3D_7huc7")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fx53u"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_857v7"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("12_o6o1c")
 
-[sub_resource type="Resource" id="Resource_6mpyk"]
+[sub_resource type="Resource" id="Resource_fx53u"]
 script = ExtResource("1_xblvt")
 palo = 1
 rango = 10
-front_material = SubResource("StandardMaterial3D_fx53u")
+front_material = SubResource("StandardMaterial3D_857v7")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6muj4"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6mpyk"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("13_adp2y")
 
-[sub_resource type="Resource" id="Resource_7dvwm"]
+[sub_resource type="Resource" id="Resource_6muj4"]
 script = ExtResource("1_xblvt")
 palo = 2
 rango = 1
-front_material = SubResource("StandardMaterial3D_6muj4")
+front_material = SubResource("StandardMaterial3D_6mpyk")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_crmy4"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7dvwm"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("14_4a5eb")
 
-[sub_resource type="Resource" id="Resource_k6qy1"]
+[sub_resource type="Resource" id="Resource_crmy4"]
 script = ExtResource("1_xblvt")
 palo = 2
 rango = 2
-front_material = SubResource("StandardMaterial3D_crmy4")
+front_material = SubResource("StandardMaterial3D_7dvwm")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bnjpi"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k6qy1"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("15_wk4ot")
 
-[sub_resource type="Resource" id="Resource_3nhav"]
+[sub_resource type="Resource" id="Resource_bnjpi"]
 script = ExtResource("1_xblvt")
 palo = 2
 rango = 3
-front_material = SubResource("StandardMaterial3D_bnjpi")
+front_material = SubResource("StandardMaterial3D_k6qy1")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q3cbl"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3nhav"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("16_6wg80")
 
-[sub_resource type="Resource" id="Resource_u0n45"]
+[sub_resource type="Resource" id="Resource_q3cbl"]
 script = ExtResource("1_xblvt")
 palo = 2
 rango = 4
-front_material = SubResource("StandardMaterial3D_q3cbl")
+front_material = SubResource("StandardMaterial3D_3nhav")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x1oqv"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u0n45"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("17_p4gpa")
 
-[sub_resource type="Resource" id="Resource_77gie"]
+[sub_resource type="Resource" id="Resource_x1oqv"]
 script = ExtResource("1_xblvt")
 palo = 2
 rango = 5
-front_material = SubResource("StandardMaterial3D_x1oqv")
+front_material = SubResource("StandardMaterial3D_u0n45")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_crsiu"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_77gie"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("18_7huc7")
 
-[sub_resource type="Resource" id="Resource_cbnsv"]
+[sub_resource type="Resource" id="Resource_crsiu"]
 script = ExtResource("1_xblvt")
 palo = 2
 rango = 6
-front_material = SubResource("StandardMaterial3D_crsiu")
+front_material = SubResource("StandardMaterial3D_77gie")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bugye"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cbnsv"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("19_gf3ta")
 
-[sub_resource type="Resource" id="Resource_oj2k5"]
+[sub_resource type="Resource" id="Resource_bugye"]
 script = ExtResource("1_xblvt")
 palo = 2
 rango = 7
-front_material = SubResource("StandardMaterial3D_bugye")
+front_material = SubResource("StandardMaterial3D_cbnsv")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tjk65"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oj2k5"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("20_857v7")
 
-[sub_resource type="Resource" id="Resource_nl2fd"]
+[sub_resource type="Resource" id="Resource_tjk65"]
 script = ExtResource("1_xblvt")
 palo = 2
 rango = 8
-front_material = SubResource("StandardMaterial3D_tjk65")
+front_material = SubResource("StandardMaterial3D_oj2k5")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bhdq6"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nl2fd"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("21_fx53u")
 
-[sub_resource type="Resource" id="Resource_slktd"]
+[sub_resource type="Resource" id="Resource_bhdq6"]
 script = ExtResource("1_xblvt")
 palo = 2
 rango = 9
-front_material = SubResource("StandardMaterial3D_bhdq6")
+front_material = SubResource("StandardMaterial3D_nl2fd")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_scl3r"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_slktd"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("22_6mpyk")
 
-[sub_resource type="Resource" id="Resource_nehwp"]
+[sub_resource type="Resource" id="Resource_scl3r"]
 script = ExtResource("1_xblvt")
 palo = 2
 rango = 10
-front_material = SubResource("StandardMaterial3D_scl3r")
+front_material = SubResource("StandardMaterial3D_slktd")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wqyxw"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nehwp"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("23_6muj4")
 
-[sub_resource type="Resource" id="Resource_72m6j"]
+[sub_resource type="Resource" id="Resource_wqyxw"]
 script = ExtResource("1_xblvt")
 palo = 3
 rango = 1
-front_material = SubResource("StandardMaterial3D_wqyxw")
+front_material = SubResource("StandardMaterial3D_nehwp")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6pfu2"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_72m6j"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("24_7dvwm")
 
-[sub_resource type="Resource" id="Resource_vojj6"]
+[sub_resource type="Resource" id="Resource_6pfu2"]
 script = ExtResource("1_xblvt")
 palo = 3
 rango = 2
-front_material = SubResource("StandardMaterial3D_6pfu2")
+front_material = SubResource("StandardMaterial3D_72m6j")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ex2gn"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vojj6"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("25_crmy4")
 
-[sub_resource type="Resource" id="Resource_1iq2s"]
+[sub_resource type="Resource" id="Resource_ex2gn"]
 script = ExtResource("1_xblvt")
 palo = 3
 rango = 3
-front_material = SubResource("StandardMaterial3D_ex2gn")
+front_material = SubResource("StandardMaterial3D_vojj6")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aadmt"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1iq2s"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("26_k6qy1")
 
-[sub_resource type="Resource" id="Resource_g0hck"]
+[sub_resource type="Resource" id="Resource_aadmt"]
 script = ExtResource("1_xblvt")
 palo = 3
 rango = 4
-front_material = SubResource("StandardMaterial3D_aadmt")
+front_material = SubResource("StandardMaterial3D_1iq2s")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ks00l"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g0hck"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("27_bnjpi")
 
-[sub_resource type="Resource" id="Resource_7e38u"]
+[sub_resource type="Resource" id="Resource_ks00l"]
 script = ExtResource("1_xblvt")
 palo = 3
 rango = 5
-front_material = SubResource("StandardMaterial3D_ks00l")
+front_material = SubResource("StandardMaterial3D_g0hck")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ye5pp"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7e38u"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("28_3nhav")
 
-[sub_resource type="Resource" id="Resource_uemvu"]
+[sub_resource type="Resource" id="Resource_ye5pp"]
 script = ExtResource("1_xblvt")
 palo = 3
 rango = 6
-front_material = SubResource("StandardMaterial3D_ye5pp")
+front_material = SubResource("StandardMaterial3D_7e38u")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mpwgr"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uemvu"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("29_q3cbl")
 
-[sub_resource type="Resource" id="Resource_hsynn"]
+[sub_resource type="Resource" id="Resource_mpwgr"]
 script = ExtResource("1_xblvt")
 palo = 3
 rango = 7
-front_material = SubResource("StandardMaterial3D_mpwgr")
+front_material = SubResource("StandardMaterial3D_uemvu")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hiitd"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hsynn"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("30_u0n45")
 
-[sub_resource type="Resource" id="Resource_nftxx"]
+[sub_resource type="Resource" id="Resource_hiitd"]
 script = ExtResource("1_xblvt")
 palo = 3
 rango = 8
-front_material = SubResource("StandardMaterial3D_hiitd")
+front_material = SubResource("StandardMaterial3D_hsynn")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vg2mw"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nftxx"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("31_x1oqv")
 
-[sub_resource type="Resource" id="Resource_hqw5u"]
+[sub_resource type="Resource" id="Resource_vg2mw"]
 script = ExtResource("1_xblvt")
 palo = 3
 rango = 9
-front_material = SubResource("StandardMaterial3D_vg2mw")
+front_material = SubResource("StandardMaterial3D_nftxx")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2n8et"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hqw5u"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("32_77gie")
 
-[sub_resource type="Resource" id="Resource_luv2x"]
+[sub_resource type="Resource" id="Resource_2n8et"]
 script = ExtResource("1_xblvt")
 palo = 3
 rango = 10
-front_material = SubResource("StandardMaterial3D_2n8et")
+front_material = SubResource("StandardMaterial3D_hqw5u")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0s2gk"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_luv2x"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("33_crsiu")
 
-[sub_resource type="Resource" id="Resource_25im4"]
+[sub_resource type="Resource" id="Resource_0s2gk"]
 script = ExtResource("1_xblvt")
 palo = 4
 rango = 1
-front_material = SubResource("StandardMaterial3D_0s2gk")
+front_material = SubResource("StandardMaterial3D_luv2x")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fcrud"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_25im4"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("34_cbnsv")
 
-[sub_resource type="Resource" id="Resource_bbalu"]
+[sub_resource type="Resource" id="Resource_fcrud"]
 script = ExtResource("1_xblvt")
 palo = 4
 rango = 2
-front_material = SubResource("StandardMaterial3D_fcrud")
+front_material = SubResource("StandardMaterial3D_25im4")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vlscy"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bbalu"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("35_bugye")
 
-[sub_resource type="Resource" id="Resource_twmld"]
+[sub_resource type="Resource" id="Resource_vlscy"]
 script = ExtResource("1_xblvt")
 palo = 4
 rango = 3
-front_material = SubResource("StandardMaterial3D_vlscy")
+front_material = SubResource("StandardMaterial3D_bbalu")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k7btt"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_twmld"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("36_oj2k5")
 
-[sub_resource type="Resource" id="Resource_4m00b"]
+[sub_resource type="Resource" id="Resource_k7btt"]
 script = ExtResource("1_xblvt")
 palo = 4
 rango = 4
-front_material = SubResource("StandardMaterial3D_k7btt")
+front_material = SubResource("StandardMaterial3D_twmld")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_olojd"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4m00b"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("37_tjk65")
 
-[sub_resource type="Resource" id="Resource_k1de8"]
+[sub_resource type="Resource" id="Resource_olojd"]
 script = ExtResource("1_xblvt")
 palo = 4
 rango = 5
-front_material = SubResource("StandardMaterial3D_olojd")
+front_material = SubResource("StandardMaterial3D_4m00b")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_851ef"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k1de8"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("38_nl2fd")
 
-[sub_resource type="Resource" id="Resource_j3clb"]
+[sub_resource type="Resource" id="Resource_851ef"]
 script = ExtResource("1_xblvt")
 palo = 4
 rango = 6
-front_material = SubResource("StandardMaterial3D_851ef")
+front_material = SubResource("StandardMaterial3D_k1de8")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6dw8t"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j3clb"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("39_bhdq6")
 
-[sub_resource type="Resource" id="Resource_nccwj"]
+[sub_resource type="Resource" id="Resource_6dw8t"]
 script = ExtResource("1_xblvt")
 palo = 4
 rango = 7
-front_material = SubResource("StandardMaterial3D_6dw8t")
+front_material = SubResource("StandardMaterial3D_j3clb")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uvfwr"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nccwj"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("40_slktd")
 
-[sub_resource type="Resource" id="Resource_paqyy"]
+[sub_resource type="Resource" id="Resource_uvfwr"]
 script = ExtResource("1_xblvt")
 palo = 4
 rango = 8
-front_material = SubResource("StandardMaterial3D_uvfwr")
+front_material = SubResource("StandardMaterial3D_nccwj")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c0o7a"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_paqyy"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("41_scl3r")
 
-[sub_resource type="Resource" id="Resource_1m6hc"]
+[sub_resource type="Resource" id="Resource_c0o7a"]
 script = ExtResource("1_xblvt")
 palo = 4
 rango = 9
-front_material = SubResource("StandardMaterial3D_c0o7a")
+front_material = SubResource("StandardMaterial3D_paqyy")
 back_material = ExtResource("2_1gs0y")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ediq2"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1m6hc"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("42_nehwp")
 
-[sub_resource type="Resource" id="Resource_3fwvp"]
+[sub_resource type="Resource" id="Resource_ediq2"]
 script = ExtResource("1_xblvt")
 palo = 4
 rango = 10
-front_material = SubResource("StandardMaterial3D_ediq2")
+front_material = SubResource("StandardMaterial3D_1m6hc")
 back_material = ExtResource("2_1gs0y")
 
 [resource]
 script = ExtResource("1_67208")
-cartas = Array[ExtResource("1_xblvt")]([SubResource("Resource_5dg62"), SubResource("Resource_vofmm"), SubResource("Resource_3mne7"), SubResource("Resource_qn61o"), SubResource("Resource_o6o1c"), SubResource("Resource_4a5eb"), SubResource("Resource_6wg80"), SubResource("Resource_7huc7"), SubResource("Resource_857v7"), SubResource("Resource_6mpyk"), SubResource("Resource_7dvwm"), SubResource("Resource_k6qy1"), SubResource("Resource_3nhav"), SubResource("Resource_u0n45"), SubResource("Resource_77gie"), SubResource("Resource_cbnsv"), SubResource("Resource_oj2k5"), SubResource("Resource_nl2fd"), SubResource("Resource_slktd"), SubResource("Resource_nehwp"), SubResource("Resource_72m6j"), SubResource("Resource_vojj6"), SubResource("Resource_1iq2s"), SubResource("Resource_g0hck"), SubResource("Resource_7e38u"), SubResource("Resource_uemvu"), SubResource("Resource_hsynn"), SubResource("Resource_nftxx"), SubResource("Resource_hqw5u"), SubResource("Resource_luv2x"), SubResource("Resource_25im4"), SubResource("Resource_bbalu"), SubResource("Resource_twmld"), SubResource("Resource_4m00b"), SubResource("Resource_k1de8"), SubResource("Resource_j3clb"), SubResource("Resource_nccwj"), SubResource("Resource_paqyy"), SubResource("Resource_1m6hc"), SubResource("Resource_3fwvp")])
+cartas = Array[ExtResource("1_xblvt")]([SubResource("Resource_qaqst"), SubResource("Resource_psgcd"), SubResource("Resource_tgfua"), SubResource("Resource_rlan6"), SubResource("Resource_p6rye"), SubResource("Resource_adp2y"), SubResource("Resource_wk4ot"), SubResource("Resource_p4gpa"), SubResource("Resource_gf3ta"), SubResource("Resource_fx53u"), SubResource("Resource_6muj4"), SubResource("Resource_crmy4"), SubResource("Resource_bnjpi"), SubResource("Resource_q3cbl"), SubResource("Resource_x1oqv"), SubResource("Resource_crsiu"), SubResource("Resource_bugye"), SubResource("Resource_tjk65"), SubResource("Resource_bhdq6"), SubResource("Resource_scl3r"), SubResource("Resource_wqyxw"), SubResource("Resource_6pfu2"), SubResource("Resource_ex2gn"), SubResource("Resource_aadmt"), SubResource("Resource_ks00l"), SubResource("Resource_ye5pp"), SubResource("Resource_mpwgr"), SubResource("Resource_hiitd"), SubResource("Resource_vg2mw"), SubResource("Resource_2n8et"), SubResource("Resource_0s2gk"), SubResource("Resource_fcrud"), SubResource("Resource_vlscy"), SubResource("Resource_k7btt"), SubResource("Resource_olojd"), SubResource("Resource_851ef"), SubResource("Resource_6dw8t"), SubResource("Resource_uvfwr"), SubResource("Resource_c0o7a"), SubResource("Resource_ediq2")])
 metadata/_custom_type_script = ExtResource("1_67208")

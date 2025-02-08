@@ -16,6 +16,7 @@ func build_collection() -> void:
 	var baraja : Baraja = load(BARAJA_PATH)
 	var back_material :StandardMaterial3D = load(BACK_CARD_MATERIAL)
 	var carta : Carta 
+	baraja.cartas.clear()
 	for palo in Carta.Palo:
 		for rango in Carta.Rango:
 			var front_material : StandardMaterial3D = back_material.duplicate(true)

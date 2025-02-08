@@ -1,0 +1,140 @@
+[gd_scene load_steps=5 format=3 uid="uid://crfb0jwqj03fn"]
+
+[ext_resource type="Theme" uid="uid://8gwc868ie2ar" path="res://cinquillo/resources/theme.tres" id="1_yr1o2"]
+[ext_resource type="Script" uid="uid://c13uogerb8sn3" path="res://cinquillo/menu/menu.gd" id="2_hvhkp"]
+[ext_resource type="Script" uid="uid://ca063w71oty3b" path="res://cinquillo/menu/audio_slider.gd" id="3_vbfry"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_o3wf3"]
+font_size = 25
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_yr1o2")
+script = ExtResource("2_hvhkp")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -23.0
+offset_top = -81.0
+offset_right = 23.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/margin_bottom = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Start" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(225, 100)
+layout_mode = 2
+theme = ExtResource("1_yr1o2")
+theme_override_font_sizes/font_size = 50
+text = "Start"
+
+[node name="Options" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(150, 70)
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("1_yr1o2")
+text = "Options
+"
+
+[node name="Exit" type="Button" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(150, 70)
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("1_yr1o2")
+text = "Exit"
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+custom_minimum_size = Vector2(500, 500)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = -20.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -31.0
+offset_top = -60.5
+offset_right = 31.0
+offset_bottom = 60.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+alignment = 1
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Options"
+label_settings = SubResource("LabelSettings_o3wf3")
+horizontal_alignment = 1
+
+[node name="GridContainer" type="GridContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+columns = 2
+
+[node name="FullScreen" type="Label" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Pantalla Completa"
+
+[node name="CheckButton" type="CheckButton" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+
+[node name="Music" type="Label" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Música"
+
+[node name="AudioBusSlider" type="HSlider" parent="Panel/VBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+script = ExtResource("3_vbfry")
+bus_name = "Music"
+metadata/_custom_type_script = ExtResource("3_vbfry")
+
+[node name="SFX" type="Label" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Effectos de sonido"
+
+[node name="AudioBusSlider2" type="HSlider" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+script = ExtResource("3_vbfry")
+bus_name = "SFX"
+metadata/_custom_type_script = ExtResource("3_vbfry")
+
+[node name="CloseButton" type="Button" parent="Panel"]
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -20.0
+offset_bottom = 20.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 5
+text = "X"

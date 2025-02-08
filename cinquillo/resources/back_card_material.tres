@@ -3,4 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://d2sr0qm10i3m5" path="res://img/reverso.png" id="1_phxq7"]
 
 [resource]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
 albedo_texture = ExtResource("1_phxq7")

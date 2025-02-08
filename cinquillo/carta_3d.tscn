@@ -1,12 +1,26 @@
-[gd_scene load_steps=3 format=3 uid="uid://ce65mxbgkgv6a"]
+[gd_scene load_steps=5 format=3 uid="uid://ce65mxbgkgv6a"]
 
 [ext_resource type="PackedScene" uid="uid://dxpc2iac0hjpw" path="res://addons/card_3d/scenes/card_3d.tscn" id="1_ew7dp"]
 [ext_resource type="Script" uid="uid://csk1dja2ntdut" path="res://cinquillo/carta_3d.gd" id="2_ew7dp"]
+[ext_resource type="Shader" uid="uid://bnlgiqxmrlrlh" path="res://cinquillo/card-border.gdshader" id="3_b1itv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lyeyd"]
+render_priority = 0
+shader = ExtResource("3_b1itv")
+shader_parameter/albedo = Color(0, 0, 0, 1)
+shader_parameter/albedo_texture_size = Vector2i(0, 0)
+shader_parameter/point_size = 0.0
+shader_parameter/roughness = 0.0
+shader_parameter/metallic_texture_channel = Vector4(0, 0, 0, 0)
+shader_parameter/specular = 0.0
+shader_parameter/metallic = 0.0
+shader_parameter/uv1_scale = Vector3(0, 0, 0)
+shader_parameter/uv1_offset = Vector3(0, 0, 0)
+shader_parameter/uv2_scale = Vector3(0, 0, 0)
+shader_parameter/uv2_offset = Vector3(0, 0, 0)
 
 [node name="Carta3D" instance=ExtResource("1_ew7dp")]
 script = ExtResource("2_ew7dp")
-data = {}
-rank = 2
-suit = 1
-front_material_path = ""
-back_material_path = ""
+
+[node name="CardFrontMesh" parent="CardMesh" index="1"]
+material_overlay = SubResource("ShaderMaterial_lyeyd")
