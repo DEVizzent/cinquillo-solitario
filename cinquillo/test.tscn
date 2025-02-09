@@ -69,19 +69,19 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 0)
 card_layout_strategy = SubResource("Resource_dhbdn")
 dropzone_collision_shape = SubResource("BoxShape3D_n6rvp")
 
-[node name="CardCollection3D" parent="DragController" instance=ExtResource("52_vkg01")]
+[node name="Palo1" parent="DragController" instance=ExtResource("52_vkg01")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 3, 0)
 card_layout_strategy = SubResource("Resource_1enov")
 
-[node name="CardCollection3D2" parent="DragController" instance=ExtResource("52_vkg01")]
+[node name="Palo2" parent="DragController" instance=ExtResource("52_vkg01")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 3, 0)
 card_layout_strategy = SubResource("Resource_1enov")
 
-[node name="CardCollection3D3" parent="DragController" instance=ExtResource("52_vkg01")]
+[node name="Palo3" parent="DragController" instance=ExtResource("52_vkg01")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 3, 0)
 card_layout_strategy = SubResource("Resource_1enov")
 
-[node name="CardCollection3D4" parent="DragController" instance=ExtResource("52_vkg01")]
+[node name="Palo4" parent="DragController" instance=ExtResource("52_vkg01")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 3, 0)
 card_layout_strategy = SubResource("Resource_1enov")
 

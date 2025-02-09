@@ -11,6 +11,7 @@ func _ready() -> void:
 	
 func on_start() -> void:
 	$"..".hide()
+	$"../AnimationPlayer".play("RESET")
 	hide()
 	pass
 

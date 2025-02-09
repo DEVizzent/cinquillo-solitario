@@ -1,5 +1,7 @@
 extends CardCollection3D
 
+signal palo_completed
+
 var accepted_upper_card: int = 5
 var accepted_lower_card: int = 5
 var palo = null
@@ -15,8 +17,12 @@ func append_card(card: Card3D)-> void:
 		card.hover_scale_factor =1.
 		card.hover_pos_move = Vector3.ZERO
 		insert_card(card, cards.size())
+	if is_completed():
+		palo_completed.emit()
 
-# whether or not a card can be selected
+func is_completed() -> bool:
+	return cards.size() == 10
+
 func can_select_card(_card) -> bool:
 	return false
 
@@ -30,7 +36,6 @@ func can_reorder_card(_card) -> bool:
 
 # if the card can be inserted to the collection
 func can_insert_card(_card: Carta3D, _from_collection) -> bool:
-	print_debug(_card.get_palo())
 	if not palo:
 		if _card.get_rango() == Carta.Rango.CINCO:
 			return true
